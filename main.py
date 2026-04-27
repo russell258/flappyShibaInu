@@ -63,12 +63,12 @@ FIREWORK_COLORS    = [
 #
 #   HOW TO ADD YOUR SHIBA IMAGE
 #   ───────────────────────────
-#   1. Name your file exactly:  shiba.png
+#   1. Name your file exactly:  shiba.png / shiba.jpg / shiba.jfif
 #   2. Copy it into the assets/ folder next to this script:
 #          flappyShibaInu/
 #          ├── main.py
 #          └── assets/
-#              └── shiba.png   ← your file goes here
+#              └── shiba.png/jpg/jfif   ← your file goes here
 #   3. The image will be scaled to SHIBA_W × SHIBA_H pixels.
 #      A square PNG with a transparent background works best.
 #   4. If the file is missing, the game runs fine with a coloured rectangle.
@@ -81,7 +81,7 @@ if getattr(sys, "frozen", False):       # running as compiled .exe
 else:
     _BASE = os.path.dirname(os.path.abspath(__file__))
 
-SHIBA_IMG_PATH = os.path.join(_BASE, "assets", "shiba.jfif")
+SHIBA_IMG_PATH = os.path.join(_BASE, "assets", "shiba.jpg")
 SHIBA_W, SHIBA_H = 48, 48
 
 # ─────────────────────────────────────────────────────────────────────────────

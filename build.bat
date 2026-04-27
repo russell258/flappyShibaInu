@@ -32,7 +32,7 @@ echo.
 echo   Your game:   dist\FlappyShibaInu.exe
 echo.
 echo   To add your Shiba image:
-echo     Copy shiba.png  into  dist\assets\shiba.png
+echo     Copy shiba.jpg  into  dist\assets\shiba.jpg
 echo     then run the .exe — it will show your image.
 echo =======================================
 echo.
